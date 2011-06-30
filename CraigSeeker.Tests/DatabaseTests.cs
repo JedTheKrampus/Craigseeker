@@ -26,6 +26,7 @@ namespace CraigSeeker.Tests
 
             Assert.AreNotSame(blankRepository.Iterator().Current, query);
             Assert.AreEqual(blankRepository.Iterator().Current.Email, "sbrown655@gmail.com");
+            Assert.AreEqual(blankRepository.Iterator().Current.Search, "steering wheel desk");
         }
     }
 }
